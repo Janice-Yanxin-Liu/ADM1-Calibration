@@ -8,7 +8,7 @@ import pymc3 as pm
 # ------------------- Experimental Observations for calibration ---------------- #
 times = np.linspace(0,312,313)
 
-obs = pd.read_csv('daily_accumulated_biogas.csv', header = 0, index_col = None)
+obs = pd.read_csv('experimental_observations.csv', header = 0, index_col = None)
 
 index_biogas = np.array([0,1,2,3,4,5,6,7,8,9,10])
 index_TAN = np.array([6, 14, 20, 27, 43, 49])
